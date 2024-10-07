@@ -1,0 +1,24 @@
+{
+    "name": "MonoDetector",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!HLAPI_MONO_INSTALLED"
+    ],
+    "versionDefines": [
+        {
+            "name": "bbepis-bepinexpack",
+            "expression": "5.0.0",
+            "define": "HLAPI_MONO_INSTALLED"
+        }
+    ],
+    "noEngineReferences": false
+}

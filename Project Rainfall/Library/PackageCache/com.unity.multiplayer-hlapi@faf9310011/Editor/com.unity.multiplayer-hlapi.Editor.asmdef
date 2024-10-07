@@ -1,0 +1,27 @@
+{
+    "name": "com.unity.multiplayer-hlapi.Editor",
+    "rootNamespace": "",
+    "references": [
+        "com.unity.multiplayer-hlapi.Runtime",
+        "com.unity.multiplayer-weaver.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HLAPI_BEPINEXPACK_INSTALLED"
+    ],
+    "versionDefines": [
+        {
+            "name": "bbepis-bepinexpack",
+            "expression": "5.0.0",
+            "define": "HLAPI_BEPINEXPACK_INSTALLED"
+        }
+    ],
+    "noEngineReferences": false
+}

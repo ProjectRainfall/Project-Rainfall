@@ -1,0 +1,29 @@
+{
+    "name": "com.unity.multiplayer-weaver.Editor",
+    "rootNamespace": "",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Mono.Cecil.dll",
+        "Mono.Cecil.Mdb.dll",
+        "Mono.Cecil.Pdb.dll",
+        "Mono.Cecil.Rocks.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "HLAPI_BEPINEXPACK_INSTALLED"
+    ],
+    "versionDefines": [
+        {
+            "name": "bbepis-bepinexpack",
+            "expression": "5.0.0",
+            "define": "HLAPI_BEPINEXPACK_INSTALLED"
+        }
+    ],
+    "noEngineReferences": false
+}
