@@ -1,5 +1,11 @@
-#RoR2 Packages Folder
-Packages/Risk of Rain 2
-#ThunderKit root folder & Logs
-ThunderKit/
-Assets/ThunderKitSettings/Logs/
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get the latest from hhtps://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
